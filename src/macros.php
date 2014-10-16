@@ -1,6 +1,6 @@
 <?php namespace EmilioBravo\Test;
 
-use Illuminate\Support\Facades\Form;
+use Illuminate\Html\FormBuilder as Form;
 
 Form::macro('select_nested', function($name,$options= [])
 {
