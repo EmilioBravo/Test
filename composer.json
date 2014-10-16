@@ -1,0 +1,24 @@
+{
+    "name": "emilio-bravo/test",
+    "description": "",
+    "authors": [
+        {
+            "name": "Luis Escobar Bravo",
+            "email": "luisescobarbravo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/libraries",
+        ],
+        "psr-0": {
+            "EmilioBravo\\Test\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
