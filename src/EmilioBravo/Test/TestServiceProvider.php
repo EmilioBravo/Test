@@ -19,7 +19,6 @@ class TestServiceProvider extends ServiceProvider {
 	public function boot()
 	{
 		$this->package('emilio-bravo/test');
-    	include __DIR__.'/../../macros.php';
 	}
 
 	/**

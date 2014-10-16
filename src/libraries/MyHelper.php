@@ -1,4 +1,4 @@
-<?php namespace \EmilioBravo\Test\Libraries;
+<?php namespace EmilioBravo\Test\Libraries;
 
 class MyHelper {
 

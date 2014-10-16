@@ -14,11 +14,14 @@
     "autoload": {
         "classmap": [
             "src/migrations",
-            "src/libraries",
+            "src/libraries"
         ],
         "psr-0": {
             "EmilioBravo\\Test\\": "src/"
-        }
+        },
+        "files": [
+            "src/macros.php"
+        ]
     },
     "minimum-stability": "stable"
 }
